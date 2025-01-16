@@ -216,4 +216,31 @@ border: none;
     .about-items{
         flex-direction: column;
     }
-}
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-content{
+        width: 450px;
+    }
+    }
+
+    @media screen and (min-width: 576px) and (max-width: 990px) {
+        .banner{
+            flex-direction: column;
+        }
+        
+    }
